@@ -18,6 +18,7 @@ const App: React.FC = () => {
   };
   return (
     <div className='App'>
+      <img src='https://image.winudf.com/v2/image/bmV0LmFudGFmdW5ueS5wb2tlbW9uZ28uZ3VpZGUuZXhwZXJ0X2ljb25fMTUwNjAyMjk4NF8wOTc/icon.png?w=170&fakeurl=1'/>
       <Searchbar onSearch = {searchForPokemon} />
       <SearchResult pokemon={pokemon} />
     </div>

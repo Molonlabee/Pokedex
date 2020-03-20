@@ -7,12 +7,10 @@ test('Show Pokemon Name', () => {
     expect (queryByText(ditto.name)).toBeInTheDocument();
 });
 
-
 test('Show Pokemon Image', () => {
     const {queryByAltText } = render(<SearchResult pokemon={ditto} />);
     expect (queryByAltText(ditto.name)).toBeInTheDocument();
 });
-
 
 test('Show Pokemon Abilities', () => {
     const {queryByText} = render(<SearchResult pokemon={ditto} />);
